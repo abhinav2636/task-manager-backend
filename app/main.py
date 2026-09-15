@@ -34,7 +34,8 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:5173",                                     # local dev
+        "http://localhost:5173",
+        "http://localhost:5174",
         "https://task-manager-frontend-iota-jet.vercel.app"],        # production
     
     allow_credentials=True,
