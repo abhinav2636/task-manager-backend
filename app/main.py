@@ -38,6 +38,7 @@ app.add_middleware(
         "http://localhost:5174",
         "https://task-manager-frontend-iota-jet.vercel.app",
         "https://task-manager-frontend-sable-ten.vercel.app",
+        "https://task-manager-frontend-flayuz79d-abhinav2636.vercel.app",
     ],  # production
     allow_credentials=True,
     allow_methods=["*"],
